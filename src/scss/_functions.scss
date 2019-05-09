@@ -1,0 +1,7 @@
+@function colour($key) {
+    @return map-get($colours, $key);
+}
+
+@function weight($key) {
+    @return map-get($weights, $key);
+}

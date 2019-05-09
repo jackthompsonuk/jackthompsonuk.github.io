@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: colour(dark);
+    font-size: $tiny;
+}
+
+b {
+    font-weight: weight(bold);
+}
+
+p {
+    line-height: 1.6;
+    font-size: calc(1.5rem + 0.5vw);
+
+    & + p {
+        margin-top: $small;
+    }
+
+}
+
+.title {
+    font-size: calc(3.4rem + 2.5vw);
+    font-weight: weight(bold);
+    color: colour(primary600);
+}
+
+.subTitle {
+    font-size: calc(1.7rem + 1.5vw);
+    font-weight: weight(medium);
+    line-height: 1.4;
+    margin-top: $small;
+    max-width: 700px;
+}
+
+.heading {
+    font-size: calc(1.8rem + 2vw);;
+    font-weight: weight(bold);
+    color: colour(primary400);
+
+    &--center {
+        @extend .heading;
+        text-align: center;
+    }
+
+}
+
+.subheading {
+    
+}

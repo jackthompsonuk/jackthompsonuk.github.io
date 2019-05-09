@@ -1,0 +1,46 @@
+$micro:    calc(0.5rem + 1vw);
+$tiny:     calc(1.0rem + 1vw);
+$small:    calc(1.8rem + 1vw);
+$medium:   calc(3.4rem + 1vw);
+$large:    calc(4.8rem + 1vw);
+$x-large:  calc(6.2rem + 1vw);
+$xx-large: calc(7.8rem + 1vw);
+
+$gutter:   9vmin;
+
+
+
+$weights: (
+    light: 300,
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700
+);
+
+$colours: (
+    primary100:	#FFEFF8,
+    primary200: #FFD6ED,
+    primary300:	#FFBCE3,
+	primary400:	#FFA3D8,
+	primary500:	#FF89CE,
+	primary600:	#E57BB9,
+	primary700: #CC6EA4,
+    primary800: #B26090,
+    primary900: #99527B,
+	secondary100:#C1D1FF,
+	secondary500:#89A7FF,
+	secondary900:#6074B2,
+    light:	    #ffffff,
+    dark:       #6C6C6C
+
+);
+
+$breakpoints: (
+  smallphone: 320px,
+  largephone: 425px,
+  smalltablet: 768px,
+  largetablet: 1024px,
+  smalldesktop: 1440px,
+  largedesktop: 1600px
+) !default;
