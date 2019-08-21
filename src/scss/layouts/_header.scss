@@ -51,44 +51,11 @@
 
         .profileImg {
             position: relative;
-            background: colour(primary200);
+            z-index: 1;
+            width: 100%;
             box-shadow: 0px 0px 1rem rgba(colour(dark), 0.1);
-            padding: 2.8rem;
-            border-radius: 100%;
-            max-width: 50vmin;
-
-            &:before {
-                content: "";
-                position: absolute;
-                top: 1.4rem;
-                left: 1.4rem;
-                right: 1.4rem;
-                bottom: 1.4rem;
-                background: colour(primary100);
-                border-radius: 100%;
-                box-shadow: 0px 0px 0.5rem colour(primary100);
-            }
-
-            &__img{
-                position: relative;
-                z-index: 1;
-                width: 100%;
-                max-width: 100%;
-                border-radius: 100%;
-            }
-
-            @include media(">largetablet"){
-                padding: 8rem;
-                
-                &:before {
-                    top: 4rem;
-                    left: 4rem;
-                    right: 4rem;
-                    bottom: 4rem;
-                }
-
-            }
-
+            max-width: 45vmin;
+            border-radius: 2rem;
         }
 
     }

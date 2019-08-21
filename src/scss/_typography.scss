@@ -21,7 +21,7 @@ p {
 .title {
     font-size: calc(3.4rem + 2.5vw);
     font-weight: weight(bold);
-    color: colour(primary600);
+    color: colour(primary500);
 }
 
 .subTitle {
@@ -35,7 +35,7 @@ p {
 .heading {
     font-size: calc(1.8rem + 2vw);;
     font-weight: weight(bold);
-    color: colour(primary400);
+    color: colour(primary500);
 
     &--center {
         @extend .heading;
