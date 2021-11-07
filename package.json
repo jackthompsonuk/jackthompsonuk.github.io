@@ -1,34 +1,11 @@
 {
-  "name": "jackthompsonuk.github.io",
-  "version": "1.0.0",
-  "description": "My Personal Website",
-  "main": "index.js",
-  "scripts": {
-    "dev": "NODE_ENV=development node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "NODE_ENV=development node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "NODE_ENV=production node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jackthompsonuk/jackthompsonuk.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jackthompsonuk/jackthompsonuk.github.io/issues"
-  },
-  "homepage": "https://github.com/jackthompsonuk/jackthompsonuk.github.io#readme",
-  "dependencies": {
-    "destyle.css": "^1.0.5",
-    "include-media": "^1.4.9"
-  },
   "devDependencies": {
-    "laravel-mix": "^4.0.15",
-    "resolve-url-loader": "^2.3.1",
-    "sass": "^1.16.1",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.22"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0"
   }
 }
